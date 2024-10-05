@@ -1,14 +1,14 @@
 /* место для вашего кода */
 body {
     background-color: white;
+    font-weight: 400;
 }
 
 .header {
     display: grid;
-    grid-template-columns: 418px 1fr 90px 328px;
+    grid-template-columns: 415px 1fr 87px 327px;
     grid-template-rows: 45px 35px 24px;
     padding: 92px 24px 96px 24px;
-    background-color: white;
 }
 
 .header_menu {
@@ -123,7 +123,6 @@ body {
 
 .cover_description-text {
     padding-top: 17px;
-    font-weight: 400;
     text-transform: uppercase;
     font-size: 22px;
     line-height: 28px;
@@ -159,7 +158,6 @@ body {
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    color: #000;
 }
 
 .lots_card-list {
@@ -184,7 +182,7 @@ body {
     justify-content: space-between;
     min-height: 563px;
     height: 100%;
-    padding: 55px 40px 45px 40px; 
+    padding: 55px 40px 45px 40px;
 }
 
 .card_type_film {
@@ -223,7 +221,6 @@ body {
 .card_text {
     position: relative;
     z-index: 1;
-    font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: #fff;
@@ -233,7 +230,6 @@ body {
     display: block;
     padding: 32px 0 0 40px;
     font-size: 20px;
-    color: #000;
 }
 
 .about {
@@ -243,7 +239,7 @@ body {
 .about_column {
     display: grid;
     grid-template-columns: 45px 240px 75px auto;
-    grid-template-rows: 100px 40px 99px 13px 305px;
+    grid-template-rows: 100px 40px 106px 305px;
 
 }
 
@@ -268,42 +264,42 @@ body {
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    color: #000;
 }
 
 .about_text {
-    grid-row: 5;
+    grid-row: 4;
     grid-column: 4;
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #000;
 }
 
-footer {
-    padding: 180px 50px 88px;
+.footer {
+    padding: 190px 40px 88px 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: center;
+    column-gap: 173px;
+}
+
+.footer_menu {
+    padding-left: 50px;
+    padding-right: 13px;
 }
 
 .footer_menu-list {
     list-style: none;
-    text-align: center;
     font-size: 18px;
     text-align: center;
-    color: #000;
 }
 
 .footer_social-list {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 46px;
+    gap: 49px;
 }
 
 .footer_social-icon {
