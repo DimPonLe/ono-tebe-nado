@@ -227,13 +227,14 @@
 }
 
 .about {
-    padding: 180px 25px 0px;
+    padding: 180px 25px 180px;
 }
 
+/* нужно, чтобы контент вместился любой по величине, пускай даже самый-самый мизерный*/
 .about_column {
     display: grid;
     grid-template-columns: 45px 240px 75px auto;
-    grid-template-rows: 100px 40px 111px 312px;
+    grid-template-rows: 100px 40px 111px auto;
 
 }
 
@@ -265,13 +266,14 @@
     grid-column: 4;
     display: flex;
     flex-direction: column;
+    gap: 20px;
     justify-content: space-between;
     font-size: 20px;
     line-height: 24px;
 }
 
 .footer {
-    padding: 180px 32px 88px 30px;
+    padding: 0 32px 88px 30px;
     display: flex;
     justify-content: center;
     column-gap: 173px;
